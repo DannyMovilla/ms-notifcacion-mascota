@@ -18,9 +18,7 @@ export class SendgridController {
     },
   })
   async mail(@requestBody() datamail: Mail) {
-    sgMail.setApiKey(
-      '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',
-    );
+    sgMail.setApiKey();
     const msg = {
       to: datamail.to,
       from: 'pcns.gzkai50@myxu.info',
