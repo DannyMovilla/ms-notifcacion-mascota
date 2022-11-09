@@ -1,8 +1,8 @@
 {
   "sendgrid": {
     "connector": "loopback-sendgrid-connector",
-    "api_key": "",
-    "from": "pcns.gzkai50@myxu.info"
+    "api_key": "API SENGRID",
+    "from": "CORREO VERIFICADO SENDGRID"
   }
 
 }
